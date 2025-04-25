@@ -1,0 +1,118 @@
+.homepage-container {
+  padding: 20px;
+}
+
+.top-container {
+  margin-bottom: 20px;
+}
+
+.blue-container {
+  display: flex;
+  align-items: center;
+  background-color: #dff3ff; /* lighter blue */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.artwork-image {
+  width: 400px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.how-it-works-container {
+  background-color: rgba(193, 216, 234, 0.5); /* transparent blue */
+  padding: 20px; /* smaller padding */
+  border-radius: 10px;
+}
+
+.how-it-works-title {
+  text-align: center;
+  margin-bottom: 20px; /* smaller margin */
+  font-size: 1.5em; /* smaller font size */
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(45deg, #e7d14b, #005cb8); /* gradient blue */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-around; /* evenly distribute steps */
+  gap: 20px; /* increased gap */
+  flex-wrap: wrap; /* allow steps to wrap */
+}
+
+.step {
+  text-align: center;
+  max-width: 200px; /* smaller width */
+  flex: 1 1 200px; /* Equal width for each step */
+}
+
+.step-image {
+  width: 190px; /* smaller image */
+  height: auto;
+  margin-bottom: 10px; /* smaller margin */
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(70, 130, 180, 0.2); /* blue shadow */
+  transition: transform 0.3s ease-in-out;
+}
+
+.step:hover .step-image {
+  transform: scale(1.1);
+}
+
+.step-title {
+  color: #005cb8; /* darker blue */
+  margin-bottom: 8px; /* smaller margin */
+  font-size: 16px; /* smaller font size */
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}
+
+.step-text {
+  color: #333; /* dark gray */
+  font-size: 14px; /* smaller font size */
+  line-height: 1.3; /* smaller line height */
+}
+
+.text-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.text-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container h2 {
+  margin: 0;
+  font-size: 32px; /* Larger font size for the main title */
+  color: #005cb8; /* Darker color for better readability */
+}
+
+.text-container h4 {
+  margin: 0;
+  font-size: 20px; /* Slightly smaller font size for the subtitle */
+  color: #666; /* Darker gray for subtitle */
+}.digital-access-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  margin-top: 30px;
+}
+
+.digital-access-image {
+  width: 600px; /* Adjust the width */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px;
+  border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+

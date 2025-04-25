@@ -1,0 +1,44 @@
+header {
+  background-color: #0576de;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between; /* Distribute items along the main axis */
+  align-items: center; /* Align items vertically */
+}
+
+.logo-container {
+  text-align: center; /* Center the logo horizontally */
+}
+
+.logo {
+  width: 150px; /* Adjust the width of the logo as needed */
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f6d505;
+}

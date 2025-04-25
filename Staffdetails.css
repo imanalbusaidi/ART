@@ -1,0 +1,74 @@
+/* Staffdetails.css */
+
+.container {
+  width: calc(100% - 40px);
+  max-width: 300px; /* Adjusted max-width */
+  height: auto;
+  padding: 10px; /* Adjusted padding */
+  margin: 20px auto;
+  border-radius: 8px;
+  background: linear-gradient(to bottom right, #4a9eff, #ffffff);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: calc(100% - 24px);
+  padding: 12px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #444;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.container button[type="button"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-image: linear-gradient(to bottom right, #00c6ff, #0072ff);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container button[type="button"]:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container button[type="button"]:focus {
+  outline: none;
+}

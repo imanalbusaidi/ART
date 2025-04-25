@@ -1,0 +1,90 @@
+.product-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: slideInUp 1s ease; /* Apply animation */
+}
+
+/* Define the slideInUp animation */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.store-heading {
+  font-size: 2.5rem;
+  color: #1565c0;
+  margin-bottom: 20px;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+.product-details h3 {
+  color: #1565c0;
+  margin: 10px 0;
+}
+
+.product-details p {
+  color: #333;
+}
+
+.product-details button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.product-details button:hover {
+  background-color: #0d47a1;
+}
+
+/* Style for remove-from-cart button */
+.remove-from-cart-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.remove-from-cart-btn:hover {
+  background-color: #b71c1c;
+}
